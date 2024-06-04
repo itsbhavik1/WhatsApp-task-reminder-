@@ -20,12 +20,12 @@ const Navbar = () => {
         </svg>
         <span className="text-lg font-semibold">Whatsapp Notification Sender</span>
       </a>
-      <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
+      <nav className="hidden items-center gap-6 text-sm font-medium md:flex mr-48">
         <a className="hover:underline text-lg " href="#">
           Home
         </a>
-        <a className="hover:underline text-lg" href="#">
-          About
+        <a className="hover:underline text-lg" href="https://github.com/itsbhavik1">
+          Github
         </a>
         
       </nav>
