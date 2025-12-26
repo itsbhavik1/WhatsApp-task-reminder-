@@ -45,10 +45,7 @@ function isoToCustomString(isoString) {
 
     return `${year}, ${month}, ${day}, ${hours}, ${minutes}, ${seconds}`;
 }
-
-  for (let i = 0; i < todos.length; i++) {
-    console.log(todos[i].todo);
-  }
+ //hello 
   const todoList = todos.map((todo) => todo.todo).join("\n");
 
   const handleRunExpressScript = async () => {
